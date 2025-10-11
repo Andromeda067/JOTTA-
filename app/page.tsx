@@ -29,9 +29,9 @@ const units = [
   },
   {
     id: "unidade-sul",
-    name: "Jotta",
+    name: "Jotta (Julio de Castilho)",
     slug: "jotta",
-    address: "AV. Julho de Castilho, 3927 - Vila Coutinho",
+    address: "AV. Julio de Castilho, 3927 - Vila Coutinho",
     phone: "(67) 3029-9202",
     hours: "Seg-Sex: 08:00-18:00 | Sáb: 08:00-12:00",
     image: "/modern-car-driving-training-center.jpg",
@@ -287,10 +287,12 @@ export default function HomePage() {
             <p className="text-xl text-white/90 mb-8 text-pretty leading-relaxed">
               Entre em contato conosco e descubra como podemos ajudá-lo a conquistar sua habilitação
             </p>
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
-              Fale Conosco Agora
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="https://wa.me/5567992059340" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
+                Fale Conosco Agora
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </a>l
           </div>
         </div>
       </section>
