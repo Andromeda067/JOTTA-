@@ -33,18 +33,18 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/unidade/Mete_marcha"
-                  className="text-neutral-400 hover:text-primary transition-colors text-sm"
-                >
-                  Mete Marcha
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/unidade/jotta"
                   className="text-neutral-400 hover:text-primary transition-colors text-sm"
                 >
                   Jotta
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/unidade/jotta_Nava_Lima"
+                  className="text-neutral-400 hover:text-primary transition-colors text-sm"
+                >
+                  Jotta (novs lima)
                 </Link>
               </li>
             </ul>
