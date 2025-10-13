@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Phone, Clock, ArrowRight, Car, Users, Award, CheckCircle2 } from "lucide-react"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 const units = [
   {
@@ -34,7 +35,7 @@ const units = [
     address: "AV. Julio de Castilho, 3927 - Vila Coutinho",
     phone: "(67) 3029-9202",
     hours: "Seg-Sex: 08:00-18:00 | Sáb: 08:00-12:00",
-    image: "/modern-car-driving-training-center.jpg",
+    image: "/julio_de_castilho.jpeg",
     color: "from-red-800 to-red-950",
   },
   {
@@ -296,6 +297,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+       <WhatsAppButton />
     </div>
   )
 }
