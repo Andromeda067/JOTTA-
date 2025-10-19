@@ -44,7 +44,7 @@ export function Footer() {
                   href="/unidade/jotta_Nava_Lima"
                   className="text-neutral-400 hover:text-primary transition-colors text-sm"
                 >
-                  Jotta (novs lima)
+                  Jotta (Nova Lima)
                 </Link>
               </li>
             </ul>
