@@ -54,7 +54,7 @@ const units = [
     address: "Rua Jerônimo de Albuquerque, 705 - Nova Lima",
     phone: "(67) 99244-3037",
     hours: "Seg-Sex: 08:00-18:00 | Sáb: 08:00-12:00",
-    image: "/JOTTA.jpeg",
+    image: "/felicidade.jpeg",
     color: "from-red-800 to-red-950",
   },
 ];
