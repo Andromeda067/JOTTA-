@@ -34,7 +34,7 @@ const units = [
     address: "Rua souto maior,443 - Tijuca",
     phone: "(67) 3028-4307",
     hours: "Seg-Sex: 08:00-18:00 | Sáb: 08:00-12:00",
-    image: "/felicidade.jpeg",
+    image: "/JOTTA.jpeg",
     color: "from-red-800 to-red-950",
   },
   {
